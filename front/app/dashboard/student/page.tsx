@@ -30,7 +30,7 @@ import {
 } from "lucide-react"
 
 // API Configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://campusynccapable.onrender.com'
 
 // API Service Functions
 const apiService = {

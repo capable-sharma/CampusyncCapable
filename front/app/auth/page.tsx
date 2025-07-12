@@ -12,7 +12,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 
-const API_BASE_URL = 'http://localhost:3001/api'
+const API_BASE_URL = 'https://campusynccapable.onrender.com/api'
 
 export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true)

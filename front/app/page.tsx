@@ -11,7 +11,7 @@ import { Search, Calendar, Users, Sparkles, Clock, MapPin, ArrowRight, LogOut } 
 import Link from "next/link"
 
 // API Configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://campusynccapable.onrender.com'
 
 // API Functions
 const apiRequest = async (endpoint, options = {}) => {
